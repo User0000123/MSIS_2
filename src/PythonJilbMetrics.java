@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PythonJilbMetrics {
 
-    private static final String pathToScript = "C:\\Users\\Aleksej\\Desktop\\test1.py";
+    private static final String pathToScript = "C:\\Users\\Aleksej\\Desktop\\parser.py";
     private static final String pathToPythonExe = "C:\\Program Files\\Python311";
     public static final String defaultDirToFile = "C:\\Users\\Aleksej\\Desktop\\Лабораторные\\МСИС\\2";
     public static final String pathToInputFile = defaultDirToFile+"\\result.py";

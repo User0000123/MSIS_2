@@ -79,7 +79,7 @@ public class Controller {
 
         operators_count.setText(String.valueOf(PythonJilbMetrics.operators_flow.size()));
         absoluteEnclosure.setText(String.valueOf(CL));
-        relativeEnclosure.setText(String.valueOf(cl));
+        relativeEnclosure.setText(String.format("%.3f",cl));
         maximumEnclosure.setText(String.valueOf(max));
     }
     @FXML
